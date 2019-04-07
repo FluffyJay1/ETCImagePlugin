@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a work in progress custom plugin for the Python Library [Pillow](https://github.com/python-pillow/Pillow) that enables the decoding of files compressed by the [ETC (Ericsson Texture Compression) algorithm](https://en.wikipedia.org/wiki/Ericsson_Texture_Compression). It is able to decode ETC compressed files from passed byte data, as well as from .pkm files. 
+This is a work in progress (though almost functionally complete) custom plugin for the Python Library [Pillow](https://github.com/python-pillow/Pillow) that enables the decoding of files compressed by the [ETC (Ericsson Texture Compression) algorithm](https://en.wikipedia.org/wiki/Ericsson_Texture_Compression). It is able to decode ETC compressed files from passed byte data, as well as from .pkm files. 
 
 ## Why is this useful?
 
@@ -10,7 +10,7 @@ In conjunction with [UnityPack](https://github.com/HearthSim/UnityPack), this ca
 
 ## What can it do so far?
 
-As of now, it can only decode textures encoded with ETC1. This means that it only supports RGB4 images. If the texture you're looking for has an alpha channel, no dice (yet).
+As of now, it can decode RGB and RGBA textures encoded with ETC1 and ETC2. It cannot decode R , RG, sRGB, or sRGBA textures.
 
 ## How do I use it?
 
